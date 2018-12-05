@@ -16,6 +16,7 @@ function removeGrid(number){
         console.log(num);
         $('#' + num).css('background', 'white');
     }
+    $("#dropdown").css('display', 'none');
     $("#reshow").css('display', 'block');
 };  
 
@@ -61,6 +62,7 @@ $(document).ready(function() {
     $("#reshow").on('click', () => {
         $(".grid").css('background', 'darkred');
         $("#reshow").css('display', 'none');
+        $("#dropdown").css('display', 'block');
     });
 
 
