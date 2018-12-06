@@ -30,8 +30,8 @@ $(document).ready(function() {
 
     $("#plastic").on('click', () => {
         removeGrid(65);
-        $('#headline').html('Hong Kongers use at least 3 plastic bags <b>per day</b>. That amounts to <b>44187 tonnes</b> of bags per year.');
-        $('#middle').html('In addition, Hong Kongers throw away <b>48180 tonnes</b> of plastic bottles per year, and only <b>14%</b> of Hong Kong\'s plastic bottles get recycled.');
+        $('#headline').html('Hong Kongers average around 3 plastic bags <b>per day</b>. That amounts to <b>44187 tonnes</b> of bags per year.');
+        $('#middle').html('In addition, <b>48180 tonnes</b> of plastic bottles are discard per year, and only <b>14%</b> of Hong Kong\'s of them get recycled.');
         $('#bottom').html('Think before buying that next water bottle!');
     });
 
