@@ -7,15 +7,6 @@
     background-color: #8c4716;
 }
 
-.grid {
-    margin: 0.25%;
-    width: 3.5%;
-    border:none;
-	outline:1.5px solid #000;
-    display:inline-block;
-    background: darkred;
-}
-
 #overlay {
     position: fixed;
     display: block;
