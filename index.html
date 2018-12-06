@@ -7,26 +7,32 @@
 
 <body>
         <div id="overlay">
-                <h1 class="display-2 text-center text-white">In 2016, Hong Kongers produced <b>1.91 MILLION TONNES</b> of solid waste. What could small changes in our habits have done to change that?</h1>
+                <h1 class="display-2 text-center text-white">In 2016, Hong Kongers produced almost <b>3.8 MILLION TONNES</b> of solid waste that went to landfills. Could changes in our habits have changed that?</h1>
                 <button type="button" class="btn btn-secondary btn-lg float-right mr-4 p-4" id="overlayButton">Let's see</button>
+                <p>https://www.wastereduction.gov.hk/sites/default/files/en/materials/info/e16.04.03.xls</p>
               </div>
 <div class="container-fluid">
     <div class="row">
     <div class="col-7 p-1" id="gridContainer">
-<div id="gridWindow"></div>
+<div id="gridWindow">
+</div>
+<p>Each garbage bag represents 6042 tonnes of garbage</p>
 </div>
 <div class="col-5" id="textArea">
-        <h1 class="display-3">Total amount of waste produced: 1,910,000 tonnes</h1>
-        <h1 class="display-4">Each square represents 3056 tonnes</h1>
+        <h1 class="display-4" id="headline">In 2016, Hong Kongers produced 10,345 tonnes of solid waste <b>per day</b> that went to landfills.</h1>
+        <br>
+        <p class="h2" id="middle">That amounts to almost <b>3,800,000 tonnes</b> of garbage for the year.</p> 
+        <br>
+        <p class="h4" id="bottom">What would the effect have been if we...</p>
         <br>
         <div class="dropdown" id="dropdown">
                 <button class="btn btn-secondary dropdown-toggle btn-lg" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  If we...
+                  Choose an option
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" id="bags">threw away half as many plastic bags as we do now</a>
-                  <a class="dropdown-item" id="paper">cut half the amount of paper we throw away</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" id="plastic">cut our plastic consumption by half?</a>
+                  <a class="dropdown-item" id="paper">cut our paper consumption by half?</a>
+                  <a class="dropdown-item" id="food">wasted half as much food as before?</a>
                 </div>
               </div>
               <button type="button" class="btn btn-secondary btn-lg p-4" id="reshow" style="display: none;">Start over</button>
