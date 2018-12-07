@@ -10,15 +10,6 @@ function createGrid(x) {
     $(".grid").height(($('.grid').width()));
 };
 
-// function that clears the grid
-function removeGrid(number){
-    for (var num = 625 - number; num <= 625; num++) {
-        $('#' + num)[0].src = "brown.png";//css('background', 'white');
-    }
-    $(".dropdown").css('display', 'none');
-    $("#reshow").css('display', 'block');
-};  
-
 $(document).ready(function() {
     createGrid(25);
     hkPop = 7337000;
