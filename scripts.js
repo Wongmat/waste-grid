@@ -11,7 +11,7 @@ function createGrid(x) {
 };
 
 // function that removes bags
-function removeGrid(number){
+function removeBag(number){
     for (var num = 625 - number; num <= 625; num++) {
         $('#' + num)[0].src = "brown.png";//css('background', 'white');
     }
@@ -29,21 +29,21 @@ $(document).ready(function() {
     });
 
     $("#plastic").on('click', () => {
-        removeGrid(65);
+        removeBag(65);
         $('#headline').html('Hong Kongers average around 3 plastic bags <b>per day</b>. That amounts to <b>44187 tonnes</b> of bags per year.');
         $('#middle').html('In addition, <b>48180 tonnes</b> of plastic bottles are discard per year, and only <b>14%</b> of them get recycled.');
         $('#bottom').html('Think before buying that next water bottle!');
     });
 
     $("#paper").on('click', () => {
-        removeGrid(68);
+        removeBag(68);
         $('#headline').html('Every year, paper comes in as one of top materials that end up at Hong Kong landfills.');
         $('#middle').html('In 2016, paper waste made up <b>21.7%</b> of the total amount.');
         $('#bottom').html('Think before you print!');
     });
 
     $("#food").on('click', () => {
-        removeGrid(109);
+        removeBag(109);
         $('#headline').html('By far, <b>food waste</b> is the type of garbage that makes up most landfill trash.');
         $('#middle').html('Food waste makes up a whopping <b>36%</b> of total landfill waste.');
         $('#bottom').html('Think before you eat!');
