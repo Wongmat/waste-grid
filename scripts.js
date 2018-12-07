@@ -46,7 +46,7 @@ $(document).ready(function() {
         removeBag(109);
         $('#headline').html('By far, <b>food waste</b> is the type of garbage that makes up most landfill trash.');
         $('#middle').html('Food waste makes up a whopping <b>36%</b> of total landfill waste.');
-        $('#bottom').html('Think before you eat!');
+        $('#bottom').html("Let's be more conscientious of our food.");
     });
 
     $("#reshow").on('click', () => {
